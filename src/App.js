@@ -1,11 +1,10 @@
 import './App.css';
+import Score from './components/Score';
 
 function App() {
   return (
     <div className="App">
-     <h1 className="text-3xl font-bold underline font-['HankenGrotesk'] text-lightBlue">
-      Hello world!
-    </h1>
+     <Score />
     </div>
   );
 }
