@@ -2,7 +2,7 @@ import React from 'react'
 
 function Score() {
   return (
-    <div id='scoreWrapper' className='bg-gradient-to-b from-gradientOneFirst from-0% via-gradientOneSecond via-0.01% to-gradientOneThird to-100% shadow-[0_30px_60px_rgba(61,108,236,0.15)] rounded-[0_0_32px_32px] mb-6'>
+    <div id='scoreWrapper' className='w-full max-w-[375px] bg-gradient-to-b from-gradientOneFirst from-0% via-gradientOneSecond via-0.01% to-gradientOneThird to-100% shadow-[0_30px_60px_rgba(61,108,236,0.15)] rounded-[0_0_32px_32px] mb-6'>
         <div id='scoreContainer' className='flex flex-col justify-center items-center'>
             <div id='resultContainer' className='py-6 font-["HankenGrotesk"] font-bold text-lg leading-[23.45px] text-center text-lightBlue opacity-10'>
                 <h1 id='result'>Your Result</h1>
