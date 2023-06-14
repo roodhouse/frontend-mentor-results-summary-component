@@ -4,7 +4,7 @@ function Score() {
   return (
     <div id='scoreWrapper' className='w-full max-w-[375px] bg-gradient-to-b from-gradientOneFirst from-0% via-gradientOneSecond via-0.01% to-gradientOneThird to-100% shadow-[0_30px_60px_rgba(61,108,236,0.15)] rounded-[0_0_32px_32px] mb-6 md:mb-0 md:max-w-[368px] md:h-[512px] md:rounded-[32px]'>
         <div id='scoreContainer' className='flex flex-col justify-center items-center'>
-            <div id='resultContainer' className='py-6 font-["HankenGrotesk"] font-bold text-lg leading-[23.45px] text-center text-lightBlue opacity-10'>
+            <div id='resultContainer' className='py-6 font-["HankenGrotesk"] font-bold text-lg leading-[23.45px] text-center text-lightBlue opacity-10 md:py-8 md:text-2xl md:leading-[31px] md:opacity-100'>
                 <h1 id='result'>Your Result</h1>
             </div>
             <div id='yourScoreContainer' className='flex flex-col justify-center items-center bg-gradient-to-b from-gradientTwoFirst from-0% via-gradientTwoSecond via-100% to-gradientTwoThird to-100% w-[140px] h-[140px] pb-6 rounded-[50%]'>
