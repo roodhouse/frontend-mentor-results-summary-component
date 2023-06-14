@@ -4,7 +4,7 @@ import Summary from './components/Summary';
 
 function App() {
   return (
-    <div className="App flex flex-col justify-center items-center w-full">
+    <div className="App flex flex-col justify-center items-center w-full md:flex-row md:h-screen">
      <Score />
      <Summary />
     </div>
