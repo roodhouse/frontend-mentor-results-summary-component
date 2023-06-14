@@ -25,9 +25,9 @@ function theData(){
 function Summary() {
 
   return (
-    <div id='summaryWrapper' className='w-full max-w-[375px] mb-[30px] md:mb-0 md:max-w-[368px] md:h-[512px]'>
-        <div id='summaryContainer' className='flex flex-col mb-6 mx-[30px]'>
-            <div id="summaryHeading" className='flex flex-col items-start pl-[2px] text-darkNavy font-bold text-lg leading-[23px] font-["HankenGrotesk"] mb-6'>
+    <div id='summaryWrapper' className='w-full max-w-[375px] mb-[30px] md:mb-0 md:max-w-[368px] md:h-[512px] md:pt-[43px]'>
+        <div id='summaryContainer' className='flex flex-col mb-6 mx-[30px] md:ml-0'>
+            <div id="summaryHeading" className='flex flex-col items-start pl-[2px] text-darkNavy font-bold text-lg leading-[23px] font-["HankenGrotesk"] mb-6 md:text-2xl'>
                 <h2>Summary</h2>
             </div>
             <div id="summaryAttr">
