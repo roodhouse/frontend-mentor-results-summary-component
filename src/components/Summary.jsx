@@ -25,8 +25,8 @@ function theData(){
 function Summary() {
 
   return (
-    <div id='summaryWrapper' className='w-full max-w-[375px] mx-[30px] mb-[30px]'>
-        <div id='summaryContainer' className='flex flex-col mb-6'>
+    <div id='summaryWrapper' className='w-full max-w-[375px] mb-[30px]'>
+        <div id='summaryContainer' className='flex flex-col mb-6 mx-[30px]'>
             <div id="summaryHeading" className='flex flex-col items-start pl-[2px] text-darkNavy font-bold text-lg leading-[23px] font-["HankenGrotesk"] mb-6'>
                 <h2>Summary</h2>
             </div>
@@ -36,7 +36,7 @@ function Summary() {
                 </div>
             </div>
         </div>
-        <div id='continueContainer' className='text-white bg-darkNavy font-bold text-lg leading-[23px] font-["HankenGrotesk"] flex flex-col justify-center items-center rounded-[128px]'>
+        <div id='continueContainer' className='text-white bg-darkNavy font-bold text-lg leading-[23px] font-["HankenGrotesk"] flex flex-col justify-center items-center rounded-[128px] mx-[30px]'>
             <button className='py-4 cursor-pointer'>Continue</button>
         </div>
     </div>
