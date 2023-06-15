@@ -1,13 +1,19 @@
 import React from 'react'
 import Data from '../data.json'
+import ReactionIcon from '../assets/images/icon-reaction.svg';
+import MemoryIcon from '../assets/images/icon-memory.svg';
+import VisualIcon from '../assets/images/icon-visual.svg';
+import VerbalIcon from '../assets/images/icon-verbal.svg'
 
-function theData(){
+function TheData(){
+    
     const dataArr = Data
+    
     const allData = dataArr.map((data, index) => (
         <div key={index} id={data.category + 'Wrapper'} className='rounded-xl mb-4 px-4 py-4 flex justify-between'>
             <div id='imageHead' className='flex items-center'>
                 <div id={data.category + 'ImageContainer'}>
-                    <img src={data.icon} alt={data.category} />
+                    <img src={(data.category === 'Reaction' && ReactionIcon) || (data.category === 'Memory' && MemoryIcon)  || (data.category === 'Visual' && VisualIcon) || (data.category === 'Verbal' && VerbalIcon) || console.log("nope")} alt={data.category} />
                 </div>
                 <div id={data.category + 'HeadContainer'} className='pl-3 font-["HankenGrotesk"] font-medium text-base leading-[21px md:text-lg md:leading-[23px]'>
                     <h3>{data.category}</h3>
@@ -32,7 +38,7 @@ function Summary() {
             </div>
             <div id="summaryAttr">
                 <div id="reactionContainer">
-                    {theData()}
+                    {TheData()}
                 </div>
             </div>
         </div>
