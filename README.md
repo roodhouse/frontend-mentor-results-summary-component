@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/roodhouse/frontend-mentor-results-summary-component)
-- Live Site URL: [Add live site URL here](https://results.rugh.us)
+- Live Site URL: [live site URL](https://results.rugh.us)
 
 ## My process
 
@@ -85,6 +85,8 @@ function TheData(){
     return allData
 } 
 ```
+
+A second challenge was using the gradient in Tailwind. Implement a gradient with Tailwind is not so bad, but making it the exact pixel perfect replica proved difficult for me.
 
 ## Author
 
