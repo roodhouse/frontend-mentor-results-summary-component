@@ -89,3 +89,4 @@ A second challenge was using the gradient in Tailwind. Implement a gradient with
 - Website - [my site](https://rugh.us)
 - Frontend Mentor - [@roodhouse](https://www.frontendmentor.io/profile/roodhouse)
 - LinkedIn - [John Rugh](https://www.linkedin.com/in/john-m-rugh/)
+.
