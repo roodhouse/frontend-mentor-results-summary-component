@@ -44,8 +44,6 @@ Users should be able to:
 
 ### Built with
 
-### Built with
-
 - HTML5, CSS
 - Mobile-first workflow
 - React
